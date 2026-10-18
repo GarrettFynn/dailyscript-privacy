@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>码中纪 · 隐私政策</title>
+<style>
+  body { margin: 0; background: #f7f8fa; color: #1a2129;
+         font-family: -apple-system, "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 20px 48px; background: #fff; min-height: 100vh; box-sizing: border-box; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 17px; margin: 28px 0 8px; }
+  p { font-size: 15px; line-height: 1.75; margin: 8px 0; }
+  .meta { color: #5c6770; font-size: 13px; }
+  ol, ul { padding-left: 22px; }
+  li { font-size: 15px; line-height: 1.75; margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 14px; }
+  th, td { border: 1px solid #e4e8ef; padding: 8px 10px; text-align: left; line-height: 1.6; vertical-align: top; }
+  th { background: #f3f5f9; }
+</style>
+</head>
+<body>
+<main>
+<h1>码中纪 · 隐私政策</h1>
+<p class="meta">生效日期：2026-10-18</p>
+
+<p>码中纪是一款本地优先的开发者日记应用。我们坚持：<strong>你的日记只属于你</strong>。</p>
+
+<h2>一、我们收集哪些信息</h2>
+<p>不收集。码中纪没有账号体系，没有自有服务器，不集成任何统计分析、广告或崩溃收集 SDK。你的全部数据——日记文本、语音、图片、应用配置——仅保存在你设备的本地应用沙盒中。</p>
+
+<h2>二、数据何时离开设备</h2>
+<p>仅在你主动操作且自行配置时：</p>
+<ol>
+<li><strong>git 推送</strong>：你在「仓库」页填写自己的代码仓库地址并点击推送时，日记内容经加密连接（HTTPS）发送至<strong>你配置的</strong>第三方仓库服务（如华为云 CodeArts、Gitee、GitHub 等）；</li>
+<li><strong>WebDAV 备份</strong>：你在「同步」页填写自己的 WebDAV 服务器地址并点击备份时，日记与媒体文件发送至<strong>你配置的</strong>网盘服务（如坚果云等）。</li>
+</ol>
+<p>上述传输的目的地、账号与密码均由你本人填写并仅保存在设备加密存储区；码中纪开发者无法接触这些数据。</p>
+
+<h2>三、权限用途</h2>
+<table>
+<tr><th>权限</th><th>用途</th><th>使用时机</th></tr>
+<tr><td>网络访问（INTERNET）</td><td>连接<strong>你自己配置</strong>的 git 仓库与 WebDAV 网盘，完成推送与备份</td><td>你主动发起推送/备份时</td></tr>
+<tr><td>麦克风（MICROPHONE）</td><td>在日记中录制语音备忘；录音仅存本机，不上传</td><td>你在编辑器中点击录音时</td></tr>
+<tr><td>悬浮窗（USE_FLOAT_BALL，受限权限已申报）</td><td>录音计时、备份传输等长任务的进度悬浮展示，任务结束自动收起；不用于广告、消息推送或后台保活</td><td>长任务进行中</td></tr>
+</table>
+
+<h2>四、数据删除</h2>
+<p>卸载应用即删除设备本地全部数据；你在第三方服务上的备份/推送内容，请在其平台自行管理。</p>
+
+<h2>五、联系方式</h2>
+<p>开发者邮箱：ganmuyun@foxmail.com</p>
+</main>
+</body>
+</html>
